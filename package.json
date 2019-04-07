@@ -1,0 +1,19 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "my first website",
+  "main": "index.js",
+  "scripts": {
+    "precommit": "grunt lint",
+    "prepush": "echo Yeaah!"
+  },
+  "author": "karishma",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "html-pdf": "^2.2.0",
+    "pug": "^2.0.3",
+    "rxjs": "^6.4.0"
+  }
+}
